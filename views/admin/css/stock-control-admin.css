@@ -1,0 +1,28 @@
+.search-input,
+.clear-results-btn {
+	padding: 8px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+
+.search-btn,
+.clear-results-btn {
+	background-color: #3498db;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px 24px;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+}
+
+.search-btn:hover,
+.clear-results-btn:hover {
+	background-color: #2980b9;
+}

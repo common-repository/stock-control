@@ -1,0 +1,17 @@
+{
+    "require-dev": {
+        "yoast/phpunit-polyfills": "^1.0",
+        "phpcompatibility/phpcompatibility-wp": "^2.1"
+    },
+     "autoload": {
+        "psr-4": {
+            "OACS\\StockControl\\": "/",
+            "OACS\\StockControl\\Models\\": "models",
+            "OACS\\StockControl\\Views\\": "views",
+            "OACS\\StockControl\\Views\\Public\\": "views/public",
+            "OACS\\StockControl\\Views\\Admin\\": "views/admin",
+            "OACS\\StockControl\\Controllers\\": "controllers",
+            "OACS\\StockControl\\Controllers\\App\\": "controllers/app"
+        }
+    }
+}
